@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: JqpZhBbirVCp2NgdkDDgx8SAM1RzVzzm12fwV/cWArtkT6oSJr+VKOd5VCZ9ieNs4gcqaqZxySWuJOFJceUKfFklDdRVZ2iTqPkd2r9NsDfLLcafIo8FlGpv9yO0rp/omta1CJOtuIZIRQshT09AT3PwF9CzroT76IEXnWsv+KVo2pA/CI9kao4qzDhx0C0G0/j+aMtisMt29UoohVhE/i9JmHp9hTwrhI2gEg+9MAQWQq+104XTX2m2nkU3L23Crr5c2vh01bRY8EitVGXNU0ViWP7A+530AKT8FqQCb/LEXzVv4f2Zr4F5hq4MsYPuYH8uZRToF0O6dqe5e2XfR0Z1syRI/yJI3CfC5UpPZL6/3uzpyD/XXMLkVgZbHJcqNlOFlIgHiff/LSS0g9evocx4/NaY57Mvh3br8XKhLJAoKGi+R+SQH5coQLVm/yB7I/yzRo7qTiz0D4RQkFKaH0LWpJTM/VzOP8FStPJe2qKpkX8bUOlJf699UeL+4iyPvuqL62IQGW9DQuJikET8djI9G7LSG1U/tmTwcic2YlkyFU9ybWnlEaitEo4atn5YwXVibGkaM6l0jOHuA07HSCRPGmUGyqtVchDByXR3oDlU6dizVkoBERAHR3n00i9bpAfIVV2wHCwbb73TA8LE959m8orWeEQe3AN5fZFMsMs=
+  app: arcane-gorge-77553
+  on:
+    repo: shirleykiang/stemly-client
